@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Campatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="./assets/fontawesome/css/all.css" />
+    <!-- our css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- our js -->
+    <script defer src="script.js"></script>
+    <title>demo-uber</title>
+  </head>
+  <body>
+    <!-- start header navbar -->
+    <nav>
+      <div class="nav-wrapper" role="navigation">
+        <a href="index.html" class="logo-text">Uber</a>
+        <ul class="left-nav">
+          <li>
+            <button type="button" class="company-dropdown-btn" tabindex="0">
+              <span>Company</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <ul class="company-dropdown" tabindex="0">
+              <li><a href="">About us</a></li>
+              <li><a href="">Our offerings</a></li>
+              <li><a href="">How Uber works</a></li>
+              <li><a href="">Global citizenship</a></li>
+              <li><a href="">Newsroom</a></li>
+              <li><a href="">Investor relations</a></li>
+              <li><a href="">Blog</a></li>
+              <li><a href="">Careers</a></li>
+            </ul>
+          </li>
+          <li><a href="">Safety</a></li>
+          <li><a href="">Help</a></li>
+          <li><a href="">COVID-19 resource</a></li>
+        </ul>
+        <ul class="right-nav">
+          <li>
+            <button type="button" id="nav-lang-btn">
+              <i class="fas fa-globe-americas"></i>
+              <span>EN</span>
+            </button>
+          </li>
+          <li>
+            <button type="button" id="nav-product-btn">
+              <i class="fas fa-th"></i>
+              <span>Products</span>
+            </button>
+          </li>
+          <li>
+            <button type="button" id="nav-login-btn">
+              <i class="far fa-user"></i>
+              <span> Log in</span>
+            </button>
+          </li>
+          <li>
+            <button type="button" id="nav-signup-btn">Sing up</button>
+          </li>
+          <li>
+            <button class="nav-dropdown-toggler">
+              <i class="fas fa-bars"></i>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- End navbar header -->
+
+    <!-- Start Main -->
+    <main>
+      <!-- front section -->
+      <section class="front-section uber-section">
+        <div class="section-inner-container">
+          <div class="section-content-wrapper">
+            <div class="tab-bar">
+              <div class="tab">
+                <div class="tab-icon">
+                  <img
+                  src="./assets/images/svg/car-front-outlined.svg"
+                  alt=""
+                  />
+                  <span>Ride</span>
+                </div>
+                <span class="tab-rule"></span>
+              </div>
+              <div class="tab">
+                <div class="tab-icon">
+                  <img src="./assets/images/svg/Earn-filled.svg" alt="" />
+                  <span>Drive or deliver</span>
+                </div>
+                <span class="tab-rule"></span>
+              </div>
+            </div>
+            <div class="tabbed-panel">
+              <div class="panel-content">
+                <div class="panel-title">
+                  <h2>Request a ride now</h2>
+                </div>
+                <div class="panel-inputs">
+                  <div class="location-input">
+                    <input type="text" />
+                    <i class="fas fa-location-arrow"></i>
+                  </div>
+                  <div class="destination-input">
+                    <input type="text" />
+                    <i class="fas fa-times"></i>
+                  </div>
+                </div>
+                <div class="panel-buttons">
+                  <a href="#">Request now</a>
+                  <a href="#">Schedule for later</a>
+                </div>
+              </div>
+            </div>
+            <img
+              src="./assets/images/png/Rider_Home_bg_desktop2x.png"
+              class="section-bg"
+              id="front_bg"
+              alt="rider image"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- banner section -->
+      <section class="banner-section uber-section">
+        <img
+          src="./assets/images/png/building-narrow.png"
+          class="banner-bg section-bg"
+          id="banner_bg"
+          alt="rider image"
+          />
+        <div class="section-inner-container">
+          <div class="section-content-wrapper">
+            <div class="banner-content">
+              <h3>Uber for business</h3>
+              <p>Transform the way your company moves and feeds its people.</p>
+              <div>
+                <a href="">See how</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- one section -->
+      <section class="one-section section-group uber-section">
+        <div class="section-inner-container">
+          <div class="section-content-wrapper">
+            <div class="one-content uber-content">
+              <img
+                src="./assets/images/png/with-mask.png"
+                class="side-img"
+                alt=""
+                />
+              <div class="card">
+                <div class="card-title">
+                  <h2>Uber Rentals</h2>
+                </div>
+                <p class="card-text">
+                  Book Rentals to save time with one car and driver for your
+                  multi-stop trips.
+                </p>
+                <div class="card-footer">
+                  <span>
+                    <a href="">Learn more</a>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- two section -->
+      <section class="two-section section-group uber-section">
+        <div class="section-inner-container">
+          <div class="section-content-wrapper">
+            <div class="two-content uber-content">
+              <div class="card">
+                <div class="card-title">
+                  <h2>Uber Intercity</h2>
+                </div>
+                <p class="card-text">
+                  Book Intercity to head outstation anytime in convenient and
+                  affordable cars.
+                </p>
+                <div class="card-footer">
+                  <span>
+                    <a href="">Learn more</a>
+                  </span>
+                </div>
+              </div>
+              <img
+                src="./assets/images/jpg/rental-1.jpg"
+                class="side-img"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- three section -->
+      <section class="three-section uber-section">
+        <div class="section-inner-container">
+          <div class="section-content-wrapper">
+            <div class="three-content uber-content">
+              <div class="content-heading">
+                <h2>Focused on safety, wherever you go</h2>
+              </div>
+              <div class="card-1 card">
+                <img
+                  src="./assets/images/jpg/Safety_Home_Img2x.jpg"
+                  class="card-image"
+                  alt="card image"
+                  />
+                <div class="card-body">
+                  <h3 class="card-title">Our commitment to your safety</h3>
+                  <p class="card-text">
+                    With every safety feature and every standard in our
+                    Community Guidelines, we're committed to helping to create a
+                    safe environment for our users.
+                  </p>
+                  <div class="card-footer">
+                    <span>
+                      <a href="">Read about our Community Guidelines</a>
+                    </span>
+                    <span>
+                      <a href="">See all sefety features</a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-2 card">
+                <img
+                  src="./assets/images/jpg/Cities_Home_Img2x.jpg"
+                  class="card-image"
+                  alt="card image"
+                  />
+                <div class="card-body">
+                  <h3 class="card-title">Setting 10,000+ cities in motion</h3>
+                  <p class="card-text">
+                    The app is available in thousands of cities worldwide, so
+                    you can request a ride even when you’re far from home.
+                  </p>
+                  <div class="card-footer">
+                    <span>
+                      <a href="">View all cities</a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- four section -->
+      <section class="four-section uber-section">
+        <div class="section-inner-container">
+          <div class="section-content-wrapper">
+            <div class="four-content uber-content">
+              <div class="card-1 card">
+                <img
+                  src="./assets/images/svg/person-multiple-outlined (1).svg"
+                  class="card-icon"
+                  alt="card icon"
+                  />
+                <div class="card-body">
+                  <h3 class="card-title">About us</h3>
+                  <p class="card-text">
+                    Find out how we started, what drives us, and how we’re
+                    reimagining how the world moves.
+                  </p>
+                  <div class="card-footer">
+                    <span>
+                      <a href="">Learn more about Uber</a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-2 card">
+                <img
+                  src="./assets/images/svg/document-outlined (1).svg"
+                  class="card-icon"
+                  alt="card icon"
+                  />
+                <div class="card-body">
+                  <h3 class="card-title">Newsroom</h3>
+                  <p class="card-text">
+                    See announcements about our latest releases, initiatives,
+                    and partnerships.
+                  </p>
+                  <div class="card-footer">
+                    <span>
+                      <a href="">Go to Newsroom</a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-3 card">
+                <img
+                  src="./assets/images/svg/home-outlined (1).svg"
+                  class="card-icon"
+                  alt="card icon"
+                  />
+                <div class="card-body">
+                  <h3 class="card-title">Global citizenship</h3>
+                  <p class="card-text">
+                    Read about our commitment to making a positive impact in the
+                    cities we serve.
+                  </p>
+                  <div class="card-footer">
+                    <span>
+                      <a href="">See our partnerships</a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- app section -->
+      <section class="app-section section-group uber-section">
+        <div class="section-inner-container">
+          <div class="section-content-wrapper">
+            <div class="app-content uber-content">
+              <div class="content-heading">
+                <h2>There’s more to love in the apps</h2>
+              </div>
+              <div class="app-wrapper driver-app-wrapper">
+                <img src="./assets/images/png/Driver-App-logo.png"
+                  alt="driver-app-logo">
+                <div class="download-app">
+                  <h2>Download the Driver app</h2>      
+                </div> 
+                <div class="arrow-icon">
+                  <i class="fas fa-arrow-right"></i>
+                </div>
+              </div>
+              <div class="app-wrapper uber-app-wrapper">
+                <img src="./assets/images/png/Rider-App-logo.png"
+                  alt="uber-app-logo">
+                <div class="download-app">
+                  <h2>Download the Uber app</h2>                 
+                </div>
+                <div class="arrow-icon" >
+                   <i class="fas fa-arrow-right"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- signup section -->
+      <section class="signup-section uber-section">
+        <div class="section-inner-container">
+          <div class="section-content-wrapper">
+            <div class="signup-content uber-content">
+              <div class="drive-signup signup">
+                <h2>Signup to drive</h2>
+                <div class="arrow-icon">
+                  <i class="fas fa-arrow-right"></i>
+                </div>
+              </div>
+              <div class="ride-signup signup">
+                <h2>Signup to ride</h2>
+                <div class="arrow-icon">
+                  <i class="fas fa-arrow-right"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+    <!-- End Main -->
+
+    <!-- end header navbar  -->
+  </body>
+</html>
